@@ -1,0 +1,284 @@
+[Root]
+Most Recent Package=NC2HPGL
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|IconGroups]
+Group0=NCデータ作成プログラム
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|NCデータ作成プログラム]
+Icon1=NC2HPGL.exe
+Title1=NC2HPGL
+StartIn1=$(AppPath)
+Key1=Icon3
+
+
+[Package|依存ﾌｧｲﾙ 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\VB_SRC\NC_Programs\Package
+
+[Package|依存ﾌｧｲﾙ 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|依存ﾌｧｲﾙ 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|依存ﾌｧｲﾙ 1|Files Found]
+
+[Package|依存ﾌｧｲﾙ 1|Files Released]
+
+[Package|依存ﾌｧｲﾙ 1|Missing Dependency Information]
+
+[Package|依存ﾌｧｲﾙ 1|Out-of-Date Dependency Information]
+
+[Package|依存ﾌｧｲﾙ 1|Files Added]
+
+[Package|依存ﾌｧｲﾙ 1|Files Removed]
+c:\windows\system\vb6jp.dll=
+c:\windows\system\msvbvm60.dll=
+c:\windows\system\oleaut32.dll=
+c:\windows\system\olepro32.dll=
+c:\windows\system\asycfilt.dll=
+c:\windows\system\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|依存ﾌｧｲﾙ 1|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\VB_SRC\NC_Programs\NC2HPGL\NC2HPGL.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINNT\system32\VB6JP.DLL=Yes
+
+[Package|依存ﾌｧｲﾙ 1|Configure Registry Files]
+Applicable=No
+
+[Package|依存ﾌｧｲﾙ 1|Configure Remote Servers]
+Applicable=No
+
+[Package|依存ﾌｧｲﾙ 1|Install Locations]
+C:\SRC\NC2HPGL\NC2HPGL.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\VB_SRC\NC_Programs\NC2HPGL\NC2HPGL.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6JP.DLL=$(WinSysPath)
+
+[Package|依存ﾌｧｲﾙ 1|Configure Shared Files]
+Applicable=Yes
+C:\SRC\NC2HPGL\NC2HPGL.exe=No
+
+[Package|依存ﾌｧｲﾙ 1|Distribution]
+Type=single
+Size=
+Title=NC2HPGL
+
+[Package|依存ﾌｧｲﾙ 1|IconGroups]
+Group0=NCデータ作成プログラム
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|依存ﾌｧｲﾙ 1|NCデータ作成プログラム]
+Icon1=NC2HPGL.exe
+Title1=NC2HPGL
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|依存ﾌｧｲﾙ 1|DepFile]
+DepCabFile=NC2HPGL.CAB
+DepCabRun=NC2HPGL.INF
+
+[Package|依存ﾌｧｲﾙ 1|Package]
+PackageFolder=C:\VB_SRC\NC_Programs\Package
+ProjectFolder=C:\VB_SRC\NC_Programs\NC2HPGL
+ServerSideCab=
+File1=C:\VB_SRC\NC_Programs\Package\NC2HPGL.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\VB_Package\NC2HPGL
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Files Found]
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Files Released]
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Missing Dependency Information]
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Out-of-Date Dependency Information]
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Files Added]
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Files Removed]
+c:\windows\system\vb6jp.dll=
+c:\windows\system\msvbvm60.dll=
+c:\windows\system\oleaut32.dll=
+c:\windows\system\olepro32.dll=
+c:\windows\system\asycfilt.dll=
+c:\windows\system\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\VB_SRC\NC2HPGL\NC2HPGL.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINNT\system32\vb6jp.dll=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Configure Registry Files]
+Applicable=No
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Configure Remote Servers]
+Applicable=No
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Install Locations]
+C:\SRC\NC2HPGL\NC2HPGL.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\VB_SRC\NC2HPGL\NC2HPGL.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vb6jp.dll=$(WinSysPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Configure Shared Files]
+Applicable=Yes
+C:\SRC\NC2HPGL\NC2HPGL.exe=No
+C:\VB_SRC\NC2HPGL\NC2HPGL.exe=No
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Distribution]
+Type=single
+Size=
+Title=NC2HPGL
+
+[Package|標準のｾｯﾄｱｯﾌﾟ ﾊﾟｯｹｰｼﾞ 1|Package]
+PackageFolder=C:\VB_Package\NC2HPGL
+ProjectFolder=C:\VB_SRC\NC2HPGL
+ServerSideCab=
+File1=C:\VB_Package\NC2HPGL\setup.exe
+File2=C:\VB_Package\NC2HPGL\Setup.Lst
+File3=C:\VB_Package\NC2HPGL\NC2HPGL.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|NC2HPGL|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\VB_Package\NC2HPGL
+
+[Package|NC2HPGL|Configure DAO ISAMs]
+Applicable=No
+
+[Package|NC2HPGL|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|NC2HPGL|Files Found]
+
+[Package|NC2HPGL|Files Released]
+
+[Package|NC2HPGL|Missing Dependency Information]
+
+[Package|NC2HPGL|Out-of-Date Dependency Information]
+
+[Package|NC2HPGL|Files Added]
+C:\VB_SRC\NC2HPGL\Readme.txt=
+
+[Package|NC2HPGL|Files Removed]
+c:\windows\system\vb6jp.dll=
+c:\windows\system\msvbvm60.dll=
+c:\windows\system\oleaut32.dll=
+c:\windows\system\olepro32.dll=
+c:\windows\system\asycfilt.dll=
+c:\windows\system\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|NC2HPGL|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\VB_SRC\NC2HPGL\NC2HPGL.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\WINNT\system32\vb6jp.dll=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\VB_SRC\NC2HPGL\Readme.txt=Yes
+
+[Package|NC2HPGL|Configure Registry Files]
+Applicable=No
+
+[Package|NC2HPGL|Configure Remote Servers]
+Applicable=No
+
+[Package|NC2HPGL|Install Locations]
+C:\SRC\NC2HPGL\NC2HPGL.exe=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\VB_SRC\NC2HPGL\NC2HPGL.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\vb6jp.dll=$(WinSysPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\VB_SRC\NC2HPGL\Readme.txt=$(AppPath)
+
+[Package|NC2HPGL|Configure Shared Files]
+Applicable=Yes
+C:\SRC\NC2HPGL\NC2HPGL.exe=No
+C:\VB_SRC\NC2HPGL\NC2HPGL.exe=No
+C:\VB_SRC\NC2HPGL\Readme.txt=No
+
+[Package|NC2HPGL|Distribution]
+Type=single
+Size=
+Title=NC2HPGL
+
+[Package|NC2HPGL|Package]
+PackageFolder=C:\VB_Package\NC2HPGL
+ProjectFolder=C:\VB_SRC\NC2HPGL
+ServerSideCab=
+File1=C:\VB_Package\NC2HPGL\setup.exe
+File2=C:\VB_Package\NC2HPGL\Setup.Lst
+File3=C:\VB_Package\NC2HPGL\NC2HPGL.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
